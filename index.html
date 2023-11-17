@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iriga Eats</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body onload="init()">
+        <div id="navbar" class="navContainer" tabindex="-1">
+            <input type="text" placeholder="Search.." id="search">
+            <div class="logo">
+                <h1>Iriga Eats</h1>
+            </div>
+            <div class="selection">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <center>
+        <div class="container" onscroll="handleScroll()" tabindex="-1"></div>
+        </center>
+        
+        <script src="backend.js"></script>
+    </body>
+
+
+</html>
