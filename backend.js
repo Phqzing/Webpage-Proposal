@@ -135,13 +135,13 @@ function init(update = false) {
             prevButton.className = "prevButton";
             prevButton.type = "button";
             prevButton.setAttribute("onclick", `slide("prev")`);
-            prevButton.innerHTML = `<img src="imgs/back.png">`;
+            prevButton.innerHTML = "PREV";
 
             const nextButton = document.createElement("button");
             nextButton.className = "nextButton";
             nextButton.type = "button";
             nextButton.setAttribute("onclick", `slide("next")`);
-            nextButton.innerHTML = `<img src="imgs/next.png">`;
+            nextButton.innerHTML = "NEXT";
 
             const buttonContainer = document.createElement("div");
             buttonContainer.className = "buttonContainer";

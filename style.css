@@ -38,7 +38,7 @@ h1, input[type="text"] {
 }
 
 a, p, button {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 .logo {
@@ -194,24 +194,28 @@ a, p, button {
     margin-top: 10px;
     width: 50px;
     height: 50px;
-    border-radius: 50px;
-    border: 1px solid rgba(137, 137, 137, 0.559);
-    background-color: rgba(255, 255, 255, 0.163);
+    border-radius: 20px;
+    border: 1px solid #8458B3;
+    background-color: #575a68;
     transition: 250ms;
+    align-items: center;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    opacity: 0.3;
 }
 
 .buttonContainer button:hover {
-    border: 1px solid rgba(137, 137, 137, 0.772);
-    background-color: rgba(255, 255, 255, 0.541);
+    background-color: rgba(85, 88, 105, 0.831);
     width: 55px;
     height: 55px;
+    opacity: 1;
 }
 
 .buttonContainer button:active {
     width: 50px;
     height: 50px;
-    border: 1px solid rgba(137, 137, 137, 0.559);
-    background-color: rgba(255, 255, 255, 0.163);
+    background-color: #2d2f3a86;
 }
 
 *:focus {outline: none;}
