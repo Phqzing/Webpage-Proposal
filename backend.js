@@ -2,106 +2,70 @@ let focusedOnCard = false;
 const cards = [
     {
         name: "asdf234 sdaf",
-        description: "chingchong chang chong ghinasdf as",
-        img: "imgs/rest1.jpg"
+        description: "chingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf as",
+        imgs: [
+            "imgs/rest3.jpg",
+            "imgs/rest2.jpg",
+            "imgs/rest1.jpg"
+        ]
     },
     {
-        name: "E123 fs g",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest2.jpg"
+        name: "asdf234 sdaf",
+        description: "chingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf as",
+        imgs: [
+            "imgs/rest3.jpg",
+            "imgs/rest2.jpg",
+            "imgs/rest1.jpg"
+        ]
     },
     {
-        name: "Ex234 f",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest1.jpg"
+        name: "asdf234 sdaf",
+        description: "chingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf as",
+        imgs: [
+            "imgs/rest3.jpg",
+            "imgs/rest2.jpg",
+            "imgs/rest1.jpg"
+        ]
     },
     {
-        name: "Exsd sdhong",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest3.jpg"
+        name: "asdf234 sdaf",
+        description: "chingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf as",
+        imgs: [
+            "imgs/rest3.jpg",
+            "imgs/rest2.jpg",
+            "imgs/rest1.jpg"
+        ]
     },
     {
-        name: "Example 234",
-        description: "chingchong chang chong ghinasdf as",
-        img: "imgs/rest1.jpg"
-    },
-    {
-        name: "Ex234 gChong",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest2.jpg"
-    },
-    {
-        name: "Ec ngChong",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest1.jpg"
-    },
-    {
-        name: "1 Chi234",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest3.jpg"
-    },
-    {
-        name: "3 asdf",
-        description: "chingchong chang chong ghinasdf as",
-        img: "imgs/rest1.jpg"
-    },
-    {
-        name: "2 234",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest2.jpg"
-    },
-    {
-        name: "66 1",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest1.jpg"
-    },
-    {
-        name: "Exasdample 09",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest3.jpg"
-    },
-    {
-        name: "Exampl2e ChingCasdhong",
-        description: "chingchong chang chong ghinasdf as",
-        img: "imgs/rest1.jpg"
-    },
-    {
-        name: "Examp23le ChingsadfChong",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest2.jpg"
-    },
-    {
-        name: "Exaasdmple Ch ingChong",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest1.jpg"
-    },
-    {
-        name: "Exa23ample ChingCasdf hong",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest3.jpg"
-    },
-    {
-        name: "Exasdfample ChingChong3 ",
-        description: "chingchong chang chong ghinasdf as",
-        img: "imgs/rest1.jpg"
-    },
-    {
-        name: "Exasdmple C23hingChong",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest2.jpg"
-    },
-    {
-        name: "Exa2dfmple ChifsangChong",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest1.jpg"
-    },
-    {
-        name: "Exaasdf mple Ching23fChong",
-        description: "chingchong chang chong ghinasdf as234234",
-        img: "imgs/rest3.jpg"
+        name: "asdf234 sdaf",
+        description: "chingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf aschingchong chang chong ghinasdf as",
+        imgs: [
+            "imgs/rest3.jpg",
+            "imgs/rest2.jpg",
+            "imgs/rest1.jpg"
+        ]
     },
 ];
 let showedCards = [];
+let navbar = document.getElementById("navbar");
+let temp;
+const onScrollStop = callback => {
+    let isScrolling;
+    document.getElementsByClassName("container")[0].addEventListener("scroll", (e) => {
+        clearTimeout(isScrolling);
+        navbar.style.opacity = 0.2;
+        isScrolling = setTimeout(() => {
+            callback();
+        }, 500);
+    },
+    false
+    );
+};
+let count = 0;
+
+onScrollStop(() => {
+    navbar.style.opacity = 0.95;
+}); 
 
 
 function init(update = false) {
@@ -139,7 +103,7 @@ function init(update = false) {
         card.className = "card";
         
         const img = document.createElement("img");
-        img.src = obj["img"];
+        img.src = obj["imgs"][0];
 
         const name = document.createElement("p");
         name.className = "name";
@@ -161,27 +125,57 @@ function init(update = false) {
 
             const description = document.createElement("p");
             let desc = obj["description"];
+            description.setAttribute("align", "center");
             description.innerHTML = desc;
             
-            const img = document.createElement("img");
-            let imgSrc = obj["img"];
-            img.src = imgSrc;
+            const slider = document.createElement("div");
+            slider.className = "slider";
 
-            form.appendChild(img);
+            const prevButton = document.createElement("button");
+            prevButton.className = "prevButton";
+            prevButton.type = "button";
+            prevButton.setAttribute("onclick", `slide("prev")`);
+            prevButton.innerHTML = `<img src="imgs/back.png">`;
+
+            const nextButton = document.createElement("button");
+            nextButton.className = "nextButton";
+            nextButton.type = "button";
+            nextButton.setAttribute("onclick", `slide("next")`);
+            nextButton.innerHTML = `<img src="imgs/next.png">`;
+
+            const buttonContainer = document.createElement("div");
+            buttonContainer.className = "buttonContainer";
+
+            buttonContainer.appendChild(prevButton);
+            buttonContainer.appendChild(nextButton);
+            
+            obj["imgs"].forEach((img) => {
+                const imgElement = document.createElement("img");
+                imgElement.className = "slideImgs";
+                imgElement.src = img;
+                slider.appendChild(imgElement);
+            });
+            slider.appendChild(buttonContainer);
+
+            form.appendChild(slider);
             form.appendChild(description);
             container.appendChild(form);
             container.focus();
             document.body.appendChild(container);
+
+            const slideImgs = document.querySelectorAll(".slideImgs");
+            slideImgs.forEach((slideImg, index) => {
+                slideImg.style.left = `${index * 100}%`;
+            });
+            count = 0;
+
+            temp = document.getElementsByClassName("container")[0];
+            temp.parentNode.removeChild(temp);
+            navbar.parentNode.removeChild(navbar);
             focusedOnCard = true;
         });
     });
 }
-
-
-function handleScroll() {
-    document.getElementById("navbar").style.opacity = 0.2;
-}
-
 
 function getSomething(name, param) {
     let val = `No ${param} found.`;
@@ -197,7 +191,7 @@ function getSomething(name, param) {
 
 
 function hasMatch(haystack, needle) {
-    if (needle == haystack) return 1000;
+    if (needle.toLowerCase() == haystack.toLowerCase()) return 1000;
 
     const hayArr = haystack.split(" ");
     const needArr = needle.split(" ");
@@ -205,7 +199,7 @@ function hasMatch(haystack, needle) {
 
     hayArr.forEach((str1) => {
         needArr.forEach((str2) => {
-            if (str1 === str2) {
+            if (str1.toLowerCase() === str2.toLowerCase()) {
                 matches.push(str1);
                 return;
             }
@@ -265,8 +259,11 @@ function makeTable(word) {
 
 document.addEventListener("keydown", (e) => {
     if (focusedOnCard && e.key === "Escape") {
-        document.getElementsByClassName("container")[0].focus();
         document.getElementById("clickedCard").remove();
+        temp.setAttribute("align", "center");
+        document.body.appendChild(temp);
+        document.body.appendChild(navbar);
+        document.getElementsByClassName("container")[0].focus();
         focusedOnCard = false;
     }
 });
@@ -294,6 +291,16 @@ document.getElementById("search").addEventListener("keydown", (e) => {
         init(true);
     }
 });
-document.getElementsByClassName("container")[0].addEventListener("scrollend", (e) => {
-    document.getElementById("navbar").style.opacity = 0.95;
-});
+
+
+function slide(val) {
+    const slideImgs = document.querySelectorAll(".slideImgs");
+    if (slideImgs.length <= 0) return;
+
+    if (val == "prev" && count > 0) count--;
+        if (val == "next" && count < (slideImgs.length - 1)) count++;
+
+    slideImgs.forEach((slideImg) => {
+        slideImg.style.transform = `translateX(-${count * 100}%)`;
+    });
+}
